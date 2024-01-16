@@ -1,0 +1,79 @@
+@font-face{
+    font-family: Robus-BWqOd;
+    src:  url(fonts/Robus-BWqOd.otf);
+
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@keyframes color-change {
+    0% { color: rgb(216, 4, 4); }
+    50% { color: rgb(255, 247, 0); }
+    100% { color: rgb(81, 1, 1); }
+  }
+
+  body{
+    background-color: rgb(133, 3, 72);
+    }
+
+.h1-header{
+    color: rgb(255, 119, 0);
+    font-family: Robus-BWqOd;
+    font-size: 150px;
+    letter-spacing: 20px;
+    background: #ff5fbc;
+    padding: 60px;
+    font-weight: bold;
+    text-shadow: 4px 10px rgb(47, 1, 1) ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(212, 40, 9);
+    text-align: center;
+    border: 10px solid rgb(69, 42, 3);
+    animation: color-change 2s infinite;
+    width: 100%;
+    box-shadow: -5px -5px 5px 2px rgb(248, 116, 0), 5px 5px 5px 2px rgb(255, 20, 3);
+}
+
+
+table {
+    color: rgb(255, 119, 0);
+    font-family: Roboto-Bold;
+    font-size: 40px;
+    border: 5px solid rgb(3, 15, 3);
+    text-shadow: 2px 2px 2px rgb(74, 19, 2);
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+  }
+
+  table tr td,
+  table tr th {
+    border: 5px solid #420000;
+    padding: 10px 50px;
+  }
+
+  table tr td img {
+    width: 300px;
+    max-width: 100%;
+  }
+
+ .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.center tr:hover{
+
+    color: red;
+    background-color: rgb(255, 255, 255);
+}
